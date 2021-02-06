@@ -19,6 +19,7 @@ I/O Functions:
             %s will be replaced by a string stored at rsi
             %h will be replaced by the hex value stored in rsi
             %n will be replaced by the 16bit values stored in rsi
+        Max of 5 formating arguments, any amount over that will be replaced by the builtin error string
     
     void printlen:
         save a string in rdi
