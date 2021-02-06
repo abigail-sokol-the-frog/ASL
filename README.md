@@ -14,7 +14,7 @@ I/O Functions:
     
     void printf: 
         save a string in rdi
-        save the second value in rsi
+        save next values in registers in order
         formating options:
             %s will be replaced by a string stored at rsi
             %h will be replaced by the hex value stored in rsi
