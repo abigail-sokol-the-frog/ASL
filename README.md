@@ -1,6 +1,6 @@
 # Assembly Standered Library
 
-A x86_64 assembly library that impliments most standered c librarys
+A x86_64 nasm assembly library that impliments most standered c librarys
 
 Library calling convention:
     
