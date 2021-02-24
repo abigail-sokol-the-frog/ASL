@@ -1,7 +1,7 @@
 #ifndef LINK_H
 #define LINK_H
 
-#define string const char*
+using string = char[];
 
 extern "C" void printf(string str, ...);
 extern "C" void printlen(string str, long len);
