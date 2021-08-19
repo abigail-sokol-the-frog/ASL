@@ -46,7 +46,7 @@ I/O Functions:
 
 String methods:
     
-    RDI val:
+    rdi val:
         set dil to a character
         converts from ascii to binary | Returns in the rdi register! |
         note that if the character is not [0-9, A-Z, a-z] then it returns itself
