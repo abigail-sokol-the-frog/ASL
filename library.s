@@ -1,5 +1,5 @@
-%ifndef STANDARED_LIBRARY_ASM
-%define STANDARED_LIBRARY_ASM
+%ifndef STANDARD_LIBRARY_ASM
+%define STANDARD_LIBRARY_ASM
 
 section .data
     hexstr: db "0x????????", 0h
